@@ -1,0 +1,244 @@
+*{
+    margin: auto;
+}
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/donation0.jpg),
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9));
+    background-position:center ;
+    background-blend-mode: overlay;
+    text-align: center;
+    align-items: center;
+     display: flex; /*ei flex diye moddokhane ana hoiche*/
+    justify-content: center;
+   
+
+}
+.banner-tittle{
+     width: 60%;
+    color: aliceblue;
+    margin: 0 auto;
+}
+.banner-text{
+   font-size: 40px;
+   font-weight: bold;
+}
+.banner-discription{
+    
+    padding: 20px;
+    font-size: 16px;
+}
+.btn-primary{
+    background-color: rgb(241, 78, 78);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+/* donate taka section */
+
+section{
+    text-align: center;
+}
+.donate-container{
+    padding-top: 70px;
+}
+.donate-tittle{
+   width: 60%;
+}
+.donate-text{
+    font-size: 35px;
+    font-weight: bold;
+    color: #121212;
+    
+}
+.donate-discription{
+    padding: 20px;
+    color: #939393;
+    font-size: 14px;
+}
+.donate-taka-blog{
+    display: flex;
+    width: 70%;
+    padding-top: 30px;
+    
+    
+
+}
+.donate-taka-card{
+    padding: 5px 10px 5px 10px;
+   /*  box-shadow: 4px 4px 8px rgb(26, 24, 24); */
+    background-color:#ffffff;
+    border-radius: 2px;
+}
+.donate-taka-card:hover{
+      border: 1px solid rgb(241, 78, 78);
+      background-color: rgb(233, 215, 212);
+      
+}
+.taka1{
+    color: #707070 ;
+    padding: 20px 10px 20px 10px;
+    font-size: 18px;
+
+}
+.taka1:hover{
+    color: rgb(241, 50, 89);
+}
+.kicu-lekha{
+    padding-top: 50px;
+    color: #707070 ;
+    font-size: 14px;
+    width: 70%;
+    padding-bottom: 20px;
+    
+}
+
+/* plan donate blog  */
+
+.plan-tittle{
+    width: 70%;
+
+}
+
+.plan-blog{
+    display:flex;
+    padding:20px 50px 20px 50px; 
+}
+.plan-card{
+    background-color: #edf5f6;
+     text-align: left;
+     padding: 30px 10px 20px 20px; 
+     width: 26%;
+     
+
+}
+.card1{
+    background-color: #ffeeee;
+}
+.card2{
+    background-color: #fff4d6;
+}
+.plan-card img{
+    width: 20%;
+    height: 35px;
+}
+.card-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #121212;
+
+}
+.card-description{
+       font-size: 12px;
+       /* padding-top: 20px;
+       padding-bottom:25px ; */
+       margin-top: 20px;
+       margin-bottom: 30px;
+       color: #707070 ;
+}
+
+/*-------- lives part */
+
+
+.lives{
+    display: flex;
+    padding:40px 50px 20px 50px;
+}
+.lives-title{
+    width:45%;
+    height: 250px;
+    background:white;
+    border-radius:10px;
+}
+.lives-text{
+    text-align: left;
+    font-size: 30px;
+    color: #121212;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+.lives-discription{
+    color: #939393;
+    font-size:  14px;
+    text-align: left;
+    padding-top: 15px;
+}
+.btn-how{
+    background-color: rgb(241, 78, 78);
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+
+}
+.btn-how:hover{
+    color: black;
+    border: none;
+    background-color: #707070;
+
+}
+
+.lives-img{
+    height:  250px;
+    width: 250px;
+    padding-right: 30px;
+    
+}
+
+/* Upate form news */
+.update{
+    width: 60%;
+}
+.update-form-list{
+    background: #ffeeee;
+    padding: 30px 40px;
+    width: 50%;
+}
+.update-form input[type="email"] {
+    width: 35%;
+    padding: 8px 20px;
+    color: #707070;
+    background: #b6b1b1;
+    border: none;
+    border-radius: 2px;
+
+}
+.update-form input[type="button"] {
+    width: 20%;
+    padding: 8px;
+    color: #ffffff;
+    background: rgb(241, 78, 78);
+    border: none;
+    border-radius: 2px;
+    margin-left:-5px;
+
+}
+
+/* footter */
+
+.footer-part{
+    background-color: #121212;
+    margin-top: 60px;
+
+}
+.foot-tittle{
+    text-align: center;
+    color: #ee6a6a;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+.foot-text{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 30px;
+
+}
